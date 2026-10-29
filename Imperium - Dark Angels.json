@@ -9650,20 +9650,8 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
-                "constraints": [{"id": "5405-f207-a61a-c2f7", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 9}],
+                "constraints": [{"id": "7cc9-3ad2-df17-dc90", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 9}],
                 "entryLinks": [
-                  {
-                    "name": "Bolt pistol",
-                    "id": "2f50-b13b-d09d-4390",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "18b0-8c2-173f-5",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "e3ad-e367-95b6-e207", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
-                      {"id": "9a2f-d4f7-269a-95b2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
-                    ]
-                  },
                   {
                     "name": "Ceramite Fists",
                     "id": "b9cd-e9af-2663-ec3b",
@@ -9674,6 +9662,31 @@
                     "constraints": [
                       {"id": "345c-4798-94af-9149", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                       {"id": "dc8a-f911-c2a1-8ffc", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  },
+                  {
+                    "name": "Plasma Burner",
+                    "id": "f50f-4567-6322-9fbd",
+                    "collective": true,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6536-b198-424e-5ada",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "f3e4-5661-5977-d3f0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "2e83-3f28-ce68-aa8b", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
+                    ]
+                  },
+                  {
+                    "name": "Bolt pistol",
+                    "id": "7a49-80bf-6eb7-45fb",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "18b0-8c2-173f-5",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "15a6-edba-2a34-966d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "a057-6b06-8451-a47c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
                     ]
                   }
                 ],
@@ -9695,39 +9708,6 @@
                       {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                     ]
                   }
-                ],
-                "selectionEntryGroups": [
-                  {
-                    "name": "Plasma Burner",
-                    "id": "f177-b6e8-6b2d-8d7f",
-                    "hidden": false,
-                    "constraints": [
-                      {"id": "4a0c-c76c-bbb5-790f", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "3d03-dc79-97d6-e559", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "infoLinks": [
-                      {"name": "Rapid Fire", "id": "bb46-8bc2-493b-8de9", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"},
-                      {"name": "Lethal Hits", "id": "c352-dd5f-effe-c3b3", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}
-                    ],
-                    "profiles": [
-                      {
-                        "name": "Plasma Burner - Standard",
-                        "id": "73aa-4b8a-bc42-9089",
-                        "hidden": false,
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "characteristics": [
-                          {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Lethal Hits, Rapid Fire 2", "typeId": "7f1b-8591-2fcf-d01c"}
-                        ]
-                      }
-                    ]
-                  }
                 ]
               },
               {
@@ -9737,25 +9717,10 @@
                 "import": true,
                 "type": "model",
                 "constraints": [
-                  {"id": "227c-0260-7d20-864c", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "0113-6a18-ebde-cc0f", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {"id": "325d-8e03-142f-825b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "5283-b130-36ca-6428", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
                 ],
                 "entryLinks": [
-                  {
-                    "name": "Bolt pistol",
-                    "id": "bd85-5216-14b6-7d41",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "18b0-8c2-173f-5",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "2aff-6c5e-602a-1704", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
-                      {"id": "30ad-1024-72c0-4665", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
-                    ],
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "85d9-8122-d3bc-9960", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
-                  },
                   {
                     "name": "Terminator Honours upgrade",
                     "id": "8448-41c0-28f2-9562",
@@ -9763,6 +9728,30 @@
                     "import": true,
                     "targetId": "e7f9-66f5-9b9e-c587",
                     "type": "selectionEntry"
+                  },
+                  {
+                    "name": "Plasma Burner",
+                    "id": "1645-1541-7302-3dcd",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6536-b198-424e-5ada",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "c2c5-d1d6-e9ab-c683", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "b699-5a94-5e3f-7888", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
+                    ]
+                  },
+                  {
+                    "name": "Bolt pistol",
+                    "id": "4b7c-373f-c929-90e1",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "18b0-8c2-173f-5",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "bb2c-129c-fbe6-e6bf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "e5c8-c37f-3194-5200", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                    ]
                   }
                 ],
                 "profiles": [
@@ -9815,26 +9804,6 @@
                         ]
                       }
                     ],
-                    "modifiers": [
-                      {
-                        "field": "3d52-ee75-d090-f824",
-                        "type": "set",
-                        "value": 0,
-                        "conditions": [
-                          {
-                            "id": "d739-da05-cba5-e582",
-                            "childId": "2c13-8cdd-f66b-bcae",
-                            "field": "selections",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "9e55-e106-5c6c-4d6d",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
-                          }
-                        ]
-                      }
-                    ],
                     "selectionEntries": [
                       {
                         "name": "Terranic Greatblade",
@@ -9875,37 +9844,6 @@
                               {"name": "Keywords", "$text": "Cleave, Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
                             ]
                           }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Plasma Burner",
-                    "id": "b1df-d87b-8a81-f01b",
-                    "hidden": false,
-                    "constraints": [
-                      {"id": "4c2f-41ef-ab48-1442", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "2aed-bfd8-b4d3-7b3d", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "infoLinks": [
-                      {"name": "Rapid Fire", "id": "1baa-e416-59ea-55a5", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"},
-                      {"name": "Lethal Hits", "id": "8fd9-5cc7-cd79-0e09", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}
-                    ],
-                    "profiles": [
-                      {
-                        "name": "Plasma Burner - Standard",
-                        "id": "5820-18c5-4deb-5c42",
-                        "hidden": false,
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "characteristics": [
-                          {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Lethal Hits, Rapid Fire 2", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]
@@ -9986,45 +9924,120 @@
                   {
                     "name": "Weapon Option",
                     "id": "1778-6a12-933c-ffd1",
+                    "collective": true,
                     "defaultSelectionEntryId": "none",
                     "hidden": false,
                     "constraints": [
-                      {"id": "d8df-a453-04fb-d20d", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "253f-dd1d-dbe4-d6cc", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {"id": "253f-dd1d-dbe4-d6cc", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "6f4a-586f-cd20-b004", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ],
-                    "entryLinks": [{"name": "Plasma Bombard", "id": "c010-f9f6-b0c6-8535", "hidden": false, "import": true, "targetId": "8213-6d07-3afd-a099", "type": "selectionEntry"}],
-                    "selectionEntryGroups": [
+                    "entryLinks": [
+                      {
+                        "name": "Plasma Bombard",
+                        "id": "c010-f9f6-b0c6-8535",
+                        "collective": true,
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "8213-6d07-3afd-a099",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+                      },
                       {
                         "name": "Phased Plasma Cleanser",
-                        "id": "dc06-ac18-6772-a4ef",
+                        "id": "b7b8-94fa-67a3-32f5",
+                        "collective": true,
                         "hidden": false,
-                        "infoLinks": [
-                          {"name": "Blast", "id": "c8b0-0c57-e45e-416d", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
-                          {"name": "Torrent", "id": "2345-7672-6ebf-415f", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
-                        ],
-                        "profiles": [
-                          {
-                            "name": "Phased Plasma Cleanser",
-                            "id": "b1b4-4d33-d864-1b0c",
-                            "hidden": false,
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "characteristics": [
-                              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
-                              {"name": "A", "$text": "5", "typeId": "3bb-c35f-f54-fb08"},
-                              {"name": "BS", "$text": "-", "typeId": "94d-8a98-cf90-183e"},
-                              {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
-                              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
-                              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Blast 2, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
-                            ]
-                          }
-                        ]
+                        "import": true,
+                        "targetId": "8902-124d-e209-564e",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
                       }
                     ]
                   }
                 ]
               }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Phased Plasma Cleanser",
+        "id": "8902-124d-e209-564e",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "entryLinks": [
+          {"name": "Weapon Modifications", "id": "8b0d-ecbd-b781-3091", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [
+          {"name": "Torrent", "id": "8a71-47f3-22f8-7e66", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+          {"name": "Lethal Hits", "id": "6ad9-4c84-9189-deb3", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+          {"name": "Blast", "id": "3e59-74e2-04f7-f413", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Phased Plasma Cleanser",
+            "id": "4125-71fd-edb0-53d9",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "-", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 1, Lethal Hits, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plasma Burner",
+        "id": "6536-b198-424e-5ada",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "entryLinks": [
+          {"name": "Weapon Modifications", "id": "6b01-7bdd-199d-fb1f", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [
+          {"name": "Hazardous", "id": "c352-dd5f-effe-c3b3", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"},
+          {"name": "Lethal Hits", "id": "f9e7-fdfe-b919-0000", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+          {"name": "Rapid Fire", "id": "bb46-8bc2-493b-8de9", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Plasma Burner - Overcharged",
+            "id": "74dd-390a-e7c5-ef5c",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "9", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Hazardous, Lethal Hits, Rapid Fire 2", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Plasma Burner - Standard",
+            "id": "1ed9-1e39-07ff-d2e3",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Lethal Hits, Rapid Fire 2", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
         ]
