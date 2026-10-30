@@ -7349,9 +7349,9 @@
               {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
               {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
               {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
-              {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
-              {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
-              {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "S", "$text": "8", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
               {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
             ]
           }
@@ -8236,7 +8236,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, SWORD BRETHREN SQUAD IN CATAPHRACTII PATTERN TERMINATOR ARMOR, SWORD BRETHREN SQUAD IN TARTAROS PATTERN TERMINATOR ARMOR, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD",
+                "$text": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, STONEBORN, SWORD BRETHREN SQUAD IN CATAPHRACTII PATTERN TERMINATOR ARMOR, SWORD BRETHREN SQUAD IN TARTAROS PATTERN TERMINATOR ARMOR, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -38853,6 +38853,23 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
           }
         ],
         "profiles": [
@@ -39243,6 +39260,23 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
           }
         ],
         "profiles": [
@@ -39626,6 +39660,23 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
               }
             ]
           }
@@ -42294,6 +42345,23 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
               }
             ]
           }
@@ -49661,7 +49729,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: \nDEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, WOLF GUARD TERMINATORS",
+                "$text": "This model can be attached to the following units: \nDEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, STONEBORN, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, WOLF GUARD TERMINATORS",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -55659,7 +55727,6 @@
                   {
                     "childId": "4554-88b1-466c-d9f5",
                     "childName": "Wolf Guard Terminators",
-                    "comment": "Deathwatch",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -60759,6 +60826,23 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
               }
             ]
           }
@@ -71925,11 +72009,11 @@
             "typeName": "Ranged Weapons",
             "characteristics": [
               {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
-              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
-              {"name": "S", "$text": "9", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
-              {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Hazardous, Close-quarters", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           },
@@ -71941,11 +72025,11 @@
             "typeName": "Ranged Weapons",
             "characteristics": [
               {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
-              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
-              {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
-              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Close-quarters", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
@@ -75770,11 +75854,11 @@
             "typeName": "Melee Weapons",
             "characteristics": [
               {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
-              {"name": "A", "$text": "7", "typeId": "2337-daa1-6682-b110"},
+              {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
               {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
               {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
               {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
-              {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
               {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
             ]
           }
@@ -77732,10 +77816,10 @@
             "typeName": "Ranged Weapons",
             "characteristics": [
               {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
-              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
-              {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
-              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Devastating Wounds, Pistol", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
@@ -88228,6 +88312,23 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
               }
             ]
           }

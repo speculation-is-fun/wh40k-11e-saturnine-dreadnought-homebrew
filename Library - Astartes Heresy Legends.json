@@ -1519,6 +1519,23 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
           }
         ],
         "profiles": [
@@ -4999,6 +5016,23 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
           }
         ],
         "profiles": [
@@ -5437,6 +5471,23 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
               }
             ]
           }
@@ -8076,6 +8127,23 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
           }
         ],
         "profiles": [
@@ -9990,6 +10058,23 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
           }
         ],
         "profiles": [
@@ -10639,6 +10724,23 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
               }
             ]
           }
@@ -11963,6 +12065,23 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
               }
             ]
           }
@@ -16313,7 +16432,7 @@
                       }
                     ],
                     "costs": [
-                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
                       {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                       {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                       {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -16363,11 +16482,11 @@
                         "typeName": "Ranged Weapons",
                         "characteristics": [
                           {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "2D6+3", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "A", "$text": "2D6", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "11", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "5", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "D", "$text": "4", "typeId": "a354-c1c8-a745-f9e3"},
                           {"name": "Keywords", "$text": "Blast 3, Hazardous, Indirect FIre", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
@@ -16394,7 +16513,7 @@
                       }
                     ],
                     "costs": [
-                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
                       {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                       {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                       {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -16458,7 +16577,7 @@
                       }
                     ],
                     "costs": [
-                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
+                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25},
                       {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                       {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                       {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -16525,12 +16644,12 @@
                             "typeName": "Ranged Weapons",
                             "characteristics": [
                               {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
-                              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
                               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
-                              {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+                              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "4", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Conversion, Sustained Hits 2, Devastating Wounds", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {"name": "Keywords", "$text": "Conversion, Sustained Hits D3, Devastating Wounds", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           }
                         ]
@@ -16595,8 +16714,8 @@
                               {"name": "BS", "$text": "-", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
-                              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Torrent, Blast 3", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                              {"name": "Keywords", "$text": "Torrent, Blast 2", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           }
                         ]
@@ -16775,13 +16894,13 @@
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "Ranged Weapons",
                             "characteristics": [
-                              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                              {"name": "Range", "$text": "9\"", "typeId": "9896-9419-16a1-92fc"},
                               {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
                               {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Anti-Infantry 3+, Devastating Wounds, Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {"name": "Keywords", "$text": "Anti-Infantry 5+, Devastating Wounds, Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           }
                         ]
@@ -16849,7 +16968,10 @@
                             "type": "selectionEntryGroup"
                           }
                         ],
-                        "infoLinks": [{"name": "Anti", "id": "9843-7b51-e14f-8131", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}],
+                        "infoLinks": [
+                          {"name": "Close-quarters", "id": "9843-7b51-e14f-8131", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+                          {"name": "Anti", "id": "33b3-dea5-1694-7cf4", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}
+                        ],
                         "profiles": [
                           {
                             "name": "Concussive resonator",
@@ -16859,12 +16981,12 @@
                             "typeName": "Ranged Weapons",
                             "characteristics": [
                               {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
-                              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                              {"name": "A", "$text": "D3+2", "typeId": "3bb-c35f-f54-fb08"},
                               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Anti-Vehicle 3+", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {"name": "Keywords", "$text": "Anti-Vehicle 3+, Close Quarters", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           }
                         ]
@@ -16946,6 +17068,23 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
               }
             ]
           }
@@ -17372,8 +17511,9 @@
         "categoryLinks": [{"name": "Attacks Dx Weapon", "id": "9d9a-d8dd-7e63-51c2", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}],
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
         "infoLinks": [
-          {"name": "Ignores Cover", "id": "fe83-207a-542f-637a", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
-          {"name": "Torrent", "id": "1f7e-87ca-adbd-b382", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+          {"name": "Blast", "id": "fe83-207a-542f-637a", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+          {"name": "Torrent", "id": "1f7e-87ca-adbd-b382", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+          {"name": "Ignores Cover", "id": "2465-1885-991a-0a54", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"}
         ],
         "profiles": [
           {
@@ -17384,12 +17524,12 @@
             "typeName": "Ranged Weapons",
             "characteristics": [
               {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
-              {"name": "A", "$text": "D6+1", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "A", "$text": "D3+3", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
               {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Ignores Cover, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+              {"name": "Keywords", "$text": "Blast, Ignores Cover, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
         ]
@@ -17444,7 +17584,7 @@
               {"name": "A", "$text": "8", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
               {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
-              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "4", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Devastating Wounds, Sustained Hits 1", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
@@ -17497,10 +17637,7 @@
         "import": true,
         "type": "upgrade",
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
-        "infoLinks": [
-          {"name": "Rapid Fire", "id": "e837-77c8-1acc-7588", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"},
-          {"name": "Twin-linked", "id": "0ea1-9b8d-9b9c-dac5", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
-        ],
+        "infoLinks": [{"name": "Rapid Fire", "id": "e837-77c8-1acc-7588", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"}],
         "profiles": [
           {
             "name": "Anvilus Stub Autocannon",
@@ -17515,7 +17652,7 @@
               {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Rapid Fire 4, Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
+              {"name": "Keywords", "$text": "Rapid Fire 4", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
         ]
@@ -17528,12 +17665,7 @@
         "import": true,
         "type": "upgrade",
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
-        "infoLinks": [
-          {"name": "Anti", "id": "4637-f552-8b6b-01c9", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
-          {"name": "Conversion", "id": "8311-f87a-4f6e-33d7", "hidden": false, "targetId": "a07b-d883-9916-4288", "type": "rule"},
-          {"name": "Devastating Wounds", "id": "b940-056a-97cd-c796", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
-          {"name": "Twin-linked", "id": "cfb9-1efd-8e35-60ee", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
-        ],
+        "infoLinks": [{"name": "Heavy", "id": "cfb9-1efd-8e35-60ee", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}],
         "profiles": [
           {
             "name": "Neutron Blaster",
@@ -17545,10 +17677,10 @@
               {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
               {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-              {"name": "S", "$text": "16", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "S", "$text": "14", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "D3+1", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Anti-Vehicle 3+, Conversion, Devastating Wounds, Sustained Hits 2", "typeId": "7f1b-8591-2fcf-d01c"}
+              {"name": "Keywords", "$text": "Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
         ]
@@ -17566,7 +17698,7 @@
           {"name": "Sabre Strike Tank", "id": "dbc5-3247-c2f1-e328", "hidden": false, "primary": false, "targetId": "1d2c-758e-2343-c46f"}
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 120},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 140},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -17609,7 +17741,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 225,
+            "value": 260,
             "conditions": [
               {
                 "childId": "model",
@@ -17620,6 +17752,23 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 2
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
               }
             ]
           }
@@ -17806,7 +17955,7 @@
                             "import": true,
                             "targetId": "d9e7-9022-e931-a0c7",
                             "type": "selectionEntry",
-                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}]
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
                           }
                         ]
                       },
@@ -17974,7 +18123,7 @@
           {"name": "Aquitor Bombard", "id": "b220-01f9-3b46-0ac4", "hidden": false, "primary": false, "targetId": "cd8f-0acd-d380-ba09"}
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 215},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 240},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -17993,7 +18142,7 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D6"}]
           },
-          {"name": "Combat Doctrines", "id": "3103-899a-8870-4bc9", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}
+          {"name": "Combat Doctrines", "id": "16e0-5172-d175-ba7d", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}
         ],
         "modifiers": [
           {
@@ -18013,6 +18162,23 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
           }
         ],
         "profiles": [
@@ -18024,28 +18190,36 @@
             "typeName": "Unit",
             "characteristics": [
               {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
-              {"name": "T", "$text": "11", "typeId": "d29d-cf75-fc2d-34a4"},
-              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "T", "$text": "10", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
               {"name": "W", "$text": "16", "typeId": "750a-a2ec-90d3-21fe"},
               {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-              {"name": "OC", "$text": "6", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "OC", "$text": "4", "typeId": "bef7-942a-1a23-59f8"},
               {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
               {"name": "Base", "$text": "Hull", "typeId": "nr-base-size"}
             ]
           },
           {
-            "name": "Precision Artillery",
-            "id": "5279-5773-514d-09b1",
+            "name": "Suppressing Fire",
+            "id": "0c11-273b-2bfc-3745",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "When making ranged attacks with its [Indirect Fire] weapons, this models attacks always hit on a hit roll of 4+.",
+                "$text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its [Indirect Fire] weapons scored a hit against an enemy INFANTRY unit, that unit is [Suppressed]. ",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Suppressed",
+            "id": "13af-590a-423a-4267",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This unit has -1 to hit rolls, movement, advance rolls, and charge rolls.", "typeId": "9b8f-694b-e5e-b573"}]
           }
         ],
         "selectionEntryGroups": [
@@ -18116,7 +18290,7 @@
                     "import": true,
                     "type": "upgrade",
                     "costs": [
-                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 40},
                       {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                       {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                       {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -18137,9 +18311,9 @@
                       }
                     ],
                     "infoLinks": [
-                      {"name": "Heavy", "id": "710d-9dd7-32bd-767b", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"},
                       {"name": "Blast", "id": "c7db-e39a-8f66-f86e", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
-                      {"name": "Indirect Fire", "id": "a7f4-98ca-8e58-1c8e", "hidden": false, "targetId": "4ddd-4e29-acdd-5e6d", "type": "rule"}
+                      {"name": "Indirect Fire", "id": "a7f4-98ca-8e58-1c8e", "hidden": false, "targetId": "4ddd-4e29-acdd-5e6d", "type": "rule"},
+                      {"name": "Ignores Cover", "id": "3c9d-4374-024e-6a42", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"}
                     ],
                     "profiles": [
                       {
@@ -18150,12 +18324,12 @@
                         "typeName": "Ranged Weapons",
                         "characteristics": [
                           {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "4D6", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "A", "$text": "3D6", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Blast 4, Heavy, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {"name": "Keywords", "$text": "Blast 4, Ignores Cover, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]
@@ -18192,8 +18366,9 @@
                     "infoLinks": [
                       {"name": "Blast", "id": "2dd4-ae43-3144-9794", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
                       {"name": "Devastating Wounds", "id": "6426-507c-bf4c-22ac", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
-                      {"name": "Heavy", "id": "fcdb-c9ff-bf5e-004a", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"},
-                      {"name": "Indirect Fire", "id": "f231-031f-d0a4-ed87", "hidden": false, "targetId": "4ddd-4e29-acdd-5e6d", "type": "rule"}
+                      {"name": "Ignores Cover", "id": "fcdb-c9ff-bf5e-004a", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
+                      {"name": "Indirect Fire", "id": "f231-031f-d0a4-ed87", "hidden": false, "targetId": "4ddd-4e29-acdd-5e6d", "type": "rule"},
+                      {"name": "Heavy", "id": "364c-1dbe-5601-0933", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}
                     ],
                     "profiles": [
                       {
@@ -18206,10 +18381,10 @@
                           {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
                           {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "12", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "S", "$text": "14", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "D6+2", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Blast 2, Devastating Wounds, Heavy, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {"name": "D", "$text": "2D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "Keywords", "$text": "Blast 2, Devastating Wounds, Heavy, Ignores Cover, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]
@@ -18236,7 +18411,7 @@
                     "infoLinks": [
                       {"name": "Anti", "id": "b448-e877-ecd3-82cb", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
                       {"name": "Blast", "id": "2419-748e-b6fb-c843", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
-                      {"name": "Heavy", "id": "f3f5-a737-4b4d-89f3", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"},
+                      {"name": "Ignores Cover", "id": "f3f5-a737-4b4d-89f3", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
                       {"name": "Indirect Fire", "id": "3ea4-2962-e498-f80f", "hidden": false, "targetId": "4ddd-4e29-acdd-5e6d", "type": "rule"}
                     ],
                     "profiles": [
@@ -18253,7 +18428,7 @@
                           {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "4", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Anti-Vehicle 3+, Blast 1, Heavy, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {"name": "Keywords", "$text": "Anti-Vehicle 3+, Blast 1, Ignores Cover, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]
@@ -18625,6 +18800,23 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "0a82-2ca2-6290-7d07",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
           }
         ],
         "profiles": [
@@ -18779,7 +18971,8 @@
                 "type": "upgrade",
                 "constraints": [
                   {"id": "9c5a-00a3-69a2-addb", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "f13e-a7fb-a416-035f", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {"id": "f13e-a7fb-a416-035f", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "297f-a28d-6d40-465a", "field": "selections", "scope": "self", "shared": true, "type": "max", "value": 2}
                 ],
                 "selectionEntries": [
                   {
@@ -18904,7 +19097,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "constraints": [{"id": "3aed-9f30-a4fc-26c0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "constraints": [{"id": "3aed-9f30-a4fc-26c0", "field": "selections", "scope": "self", "shared": true, "type": "max", "value": 2}],
                 "entryLinks": [
                   {
                     "name": "Multi-melta",
@@ -18913,6 +19106,7 @@
                     "import": true,
                     "targetId": "91c8-b628-4d47-d01e",
                     "type": "selectionEntry",
+                    "constraints": [{"id": "fdca-bd10-6d68-7a15", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
@@ -18922,6 +19116,7 @@
                     "import": true,
                     "targetId": "bcef-39ba-a990-5490",
                     "type": "selectionEntry",
+                    "constraints": [{"id": "dba3-aa97-68b0-a9fb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
                   },
                   {
@@ -18931,6 +19126,7 @@
                     "import": true,
                     "targetId": "633e-e074-ea45-a15b",
                     "type": "selectionEntry",
+                    "constraints": [{"id": "9d57-e21f-b779-586c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}]
                   },
                   {
@@ -18940,6 +19136,7 @@
                     "import": true,
                     "targetId": "d243-77eb-2a1-ff34",
                     "type": "selectionEntry",
+                    "constraints": [{"id": "55a3-a7ee-6780-b854", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
                   },
                   {"name": "Storm bolter", "id": "e06a-be62-1347-7531", "hidden": false, "import": true, "targetId": "7eb4-c21c-d0a2-39df", "type": "selectionEntry"}

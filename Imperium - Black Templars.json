@@ -15,7 +15,10 @@
       {"name": "Grimaldus", "id": "a4ce-23d9-7110-8609", "hidden": false},
       {"name": "High Marshal Helbrecht", "id": "4ac7-7ebd-3206-7f22", "hidden": false},
       {"name": "Castellan", "id": "c9ce-476b-65bd-4e81", "hidden": false},
-      {"name": "Marshal", "id": "2f85-11ec-263f-b1dc", "hidden": false}
+      {"name": "Marshal", "id": "2f85-11ec-263f-b1dc", "hidden": false},
+      {"name": "Sword Brethren Squad in Cataphractii Pattern Terminator Armor", "id": "62f0-6d33-180a-6c13", "hidden": false},
+      {"name": "Sword Brethren Squad in Tartaros Pattern Terminator Armor", "id": "b90f-db8f-9b68-1dfb", "hidden": false},
+      {"name": "Sword Brethren Squad with Jump Packs", "id": "4ff8-2c97-7eed-14cf", "hidden": false}
     ],
     "entryLinks": [
       {
@@ -9628,7 +9631,10 @@
           {"name": "Tacticus", "id": "4015-f3cb-ef9a-aef6", "primary": false, "targetId": "5179-8ede-45e3-49a2"},
           {"name": "Faction: Adeptus Astartes", "id": "9e99-d21e-1fb4-b033", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Black Templars", "id": "7f44-c71d-1513-a084", "primary": false, "targetId": "9249-acae-2882-d95"},
-          {"name": "Sword Brethren Squad", "id": "e847-2b9d-1dbe-bde5", "primary": false, "targetId": "f790-2929-6951-c241"}
+          {"name": "Sword Brethren Squad", "id": "e847-2b9d-1dbe-bde5", "primary": false, "targetId": "f790-2929-6951-c241"},
+          {"name": "Sword Brethren Squad with Jump Packs", "id": "c0d1-68a3-b686-c18e", "hidden": false, "primary": false, "targetId": "4ff8-2c97-7eed-14cf"},
+          {"name": "Jump Pack", "id": "ceb5-dc00-a89c-6a12", "hidden": false, "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
+          {"name": "Fly", "id": "bf02-013a-5b09-bf6a", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"}
         ],
         "constraints": [
           {"id": "bb37-1c44-619b-025e", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -10349,7 +10355,14 @@
           {"name": "Faction: Adeptus Astartes", "id": "d442-7248-e2e2-6cbd", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Black Templars", "id": "0279-85d3-dbbb-20ad", "primary": false, "targetId": "9249-acae-2882-d95"},
           {"name": "Sword Brethren Squad", "id": "78bf-3420-2105-3ed7", "primary": false, "targetId": "f790-2929-6951-c241"},
-          {"name": "Terminator", "id": "1db4-4b90-7b83-a0f0", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"}
+          {"name": "Terminator", "id": "1db4-4b90-7b83-a0f0", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {
+            "name": "Sword Brethren Squad in Tartaros Pattern Terminator Armor",
+            "id": "15cc-b04e-7960-75ae",
+            "hidden": false,
+            "primary": false,
+            "targetId": "b90f-db8f-9b68-1dfb"
+          }
         ],
         "constraints": [
           {"id": "2d9f-665a-b4bd-80fe", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -11070,7 +11083,14 @@
           {"name": "Faction: Adeptus Astartes", "id": "591b-ad55-297f-e340", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Black Templars", "id": "5acd-c726-8f53-b21b", "primary": false, "targetId": "9249-acae-2882-d95"},
           {"name": "Sword Brethren Squad", "id": "b7dc-8383-26fd-039b", "primary": false, "targetId": "f790-2929-6951-c241"},
-          {"name": "Terminator", "id": "5f42-650e-e720-aed2", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"}
+          {"name": "Terminator", "id": "5f42-650e-e720-aed2", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {
+            "name": "Sword Brethren Squad in Cataphractii Pattern Terminator Armor",
+            "id": "2f78-5d5b-a5a8-dc76",
+            "hidden": false,
+            "primary": false,
+            "targetId": "62f0-6d33-180a-6c13"
+          }
         ],
         "constraints": [
           {"id": "da3d-752e-5576-b966", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
