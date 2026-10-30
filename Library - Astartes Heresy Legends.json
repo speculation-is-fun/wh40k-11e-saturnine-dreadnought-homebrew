@@ -1337,7 +1337,8 @@
       {"name": "Saturnine Dreadnought", "id": "5000-e7ff-b212-e707", "hidden": false},
       {"name": "Land Raider Ares", "id": "683f-fca8-b42c-e10e", "hidden": false},
       {"name": "Sabre Strike Tank", "id": "1d2c-758e-2343-c46f", "hidden": false},
-      {"name": "Aquitor Bombard", "id": "cd8f-0acd-d380-ba09", "hidden": false}
+      {"name": "Aquitor Bombard", "id": "cd8f-0acd-d380-ba09", "hidden": false},
+      {"name": "Moritat", "id": "28f2-2ac9-4af1-45cd", "hidden": false}
     ],
     "constraints": [{"id": "53ff-f971-f0ff-20b1", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
     "sharedProfiles": [
@@ -18192,7 +18193,7 @@
               {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
               {"name": "T", "$text": "10", "typeId": "d29d-cf75-fc2d-34a4"},
               {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
-              {"name": "W", "$text": "16", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "W", "$text": "14", "typeId": "750a-a2ec-90d3-21fe"},
               {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
               {"name": "OC", "$text": "4", "typeId": "bef7-942a-1a23-59f8"},
               {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
@@ -18200,7 +18201,7 @@
             ]
           },
           {
-            "name": "Suppressing Fire",
+            "name": "Suppressing Bombardment",
             "id": "0c11-273b-2bfc-3745",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -18324,9 +18325,9 @@
                         "typeName": "Ranged Weapons",
                         "characteristics": [
                           {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "3D6", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "A", "$text": "2D6+4", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
                           {"name": "Keywords", "$text": "Blast 4, Ignores Cover, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
@@ -18383,7 +18384,7 @@
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                           {"name": "S", "$text": "14", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "2D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "D", "$text": "2D3+4", "typeId": "a354-c1c8-a745-f9e3"},
                           {"name": "Keywords", "$text": "Blast 2, Devastating Wounds, Heavy, Ignores Cover, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
@@ -18425,7 +18426,7 @@
                           {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
                           {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "4", "typeId": "a354-c1c8-a745-f9e3"},
                           {"name": "Keywords", "$text": "Anti-Vehicle 3+, Blast 1, Ignores Cover, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
@@ -19539,6 +19540,229 @@
               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Blast 2, Devastating Wounds, Hazardous", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Moritat",
+        "id": "7628-cf21-c8b9-e455",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "bf20-fc82-2239-93cd", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "bdcc-5939-af18-1b65", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Imperium", "id": "f3ba-8212-aa23-0281", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
+          {"name": "Tacticus", "id": "1cb7-9dca-c752-5cad", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"},
+          {"name": "Faction: Adeptus Astartes", "id": "b31d-cb20-894b-ea2d", "hidden": false, "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Moritat", "id": "3b45-1908-4c7f-5a05", "hidden": false, "primary": false, "targetId": "28f2-2ac9-4af1-45cd"}
+        ],
+        "constraints": [{"id": "fa21-4442-9740-327d", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 95},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+          {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+          {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Combat Doctrines", "id": "2723-3c72-788a-8289", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
+          {
+            "name": "Deadly Demise",
+            "id": "70ff-132c-faa0-6d13",
+            "hidden": false,
+            "targetId": "b68a-5ded-65ac-98c",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "2D3"}]
+          },
+          {"name": "Lone Operative", "id": "7699-41ba-ea9a-bef4", "hidden": false, "targetId": "a8a0-8fe7-898-e0f3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Moritat",
+            "id": "ea29-6b63-513e-6441",
+            "hidden": false,
+            "page": 15,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+            ]
+          },
+          {
+            "name": "Master Combatant",
+            "id": "807c-5014-7340-67ed",
+            "hidden": false,
+            "page": 15,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model has [Fights First] and can reroll 1s to hit and wound.", "typeId": "9b8f-694b-e5e-b573"}]
+          },
+          {
+            "name": "Legacy of Pyrrhus",
+            "id": "a83f-145f-9e90-a36d",
+            "hidden": false,
+            "page": 15,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "Deadly demise rolls for this unit succeed on a 4+", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Wargear",
+            "id": "7aac-3d3c-b300-2093",
+            "hidden": false,
+            "constraints": [
+              {"id": "8d7e-beb9-92b8-0c1e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {"id": "966a-1b3f-69a3-61b7", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Twin Plasma Pistols",
+                "id": "dfaa-4552-e75a-a0ab",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Close-quarters", "id": "8577-6728-1828-b6fb", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+                  {"name": "Devastating Wounds", "id": "df94-830a-b823-1400", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+                  {"name": "Hazardous", "id": "878d-57db-6c4e-5c08", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"},
+                  {"name": "Precision", "id": "9ceb-622f-a72b-fc3f", "hidden": false, "targetId": "9143-31ae-e0a6-6007", "type": "rule"},
+                  {"name": "Twin-linked", "id": "4cf9-4833-8306-8a27", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Twin Plasma Pistols",
+                    "id": "03b9-faff-d3f2-e811",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "8", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "Devastating Wounds, Hazardous, Precision, Twin-Linked", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  },
+                  {
+                    "name": "Twin Plasma Pistols - Overcharged",
+                    "id": "7973-7990-2702-cc81",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                      {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                      {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                      {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                      {"name": "Keywords", "$text": "Close-quarters, Devastating Wounds, Hazardous, Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
+                    ]
+                  },
+                  {
+                    "name": "Twin Plasma Pistols - Standard",
+                    "id": "f32a-4e7f-d987-ac76",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                      {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                      {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                      {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                      {"name": "Keywords", "$text": "Close-quarters, Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Twin Volkite Serpentae",
+                "id": "0679-6fad-4e12-cb16",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Close-quarters", "id": "719e-341f-c73a-7a0a", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+                  {"name": "Devastating Wounds", "id": "a060-bd68-6428-9c1c", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+                  {"name": "Precision", "id": "6383-eb7f-5a6c-d8ff", "hidden": false, "targetId": "9143-31ae-e0a6-6007", "type": "rule"},
+                  {"name": "Twin-linked", "id": "dac0-7d6a-1a4b-67bf", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"},
+                  {"name": "Cleave", "id": "b585-c903-e588-de66", "hidden": false, "targetId": "bf16-5d16-4725-f912", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Twin Volkite Serpentae",
+                    "id": "460b-b09e-1cd9-6e10",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "Cleave, Devastating Wounds, Precision, Twin-linked", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  },
+                  {
+                    "name": "Twin Volkite Serpentae",
+                    "id": "fc95-4927-2315-75d2",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                      {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                      {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                      {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                      {"name": "Keywords", "$text": "Close-quarters, Devastating Wounds, Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
+                    ]
+                  }
+                ]
+              }
             ]
           }
         ]

@@ -6173,7 +6173,52 @@
         "targetId": "d6f2-b68c-4df6-c0b5",
         "type": "selectionEntry"
       },
-      {"name": "Aquitor Bombard [Legends]", "id": "6f1b-fc71-2e42-b6ae", "hidden": false, "import": true, "targetId": "9ee5-d3ab-1837-88b1", "type": "selectionEntry"}
+      {"name": "Aquitor Bombard [Legends]", "id": "6f1b-fc71-2e42-b6ae", "hidden": false, "import": true, "targetId": "9ee5-d3ab-1837-88b1", "type": "selectionEntry"},
+      {
+        "name": "Moritat",
+        "id": "f919-5968-c64c-fe03",
+        "hidden": false,
+        "import": true,
+        "targetId": "7628-cf21-c8b9-e455",
+        "type": "selectionEntry",
+        "entryLinks": [{"name": "Enhancements", "id": "d16b-3fd6-cf4e-bdfa", "hidden": false, "import": true, "targetId": "9e5d-de4c-c5d1-1d3e", "type": "selectionEntryGroup"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "3d58-7b7a-58e0-ded6",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6706-3f48-8160-6a51",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
     ],
     "infoLinks": [
       {"name": "Combat Doctrines", "id": "001d-723a-56e2-f202", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
@@ -60034,7 +60079,7 @@
               {"name": "S", "$text": "12", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Twin Linked", "typeId": "7f1b-8591-2fcf-d01c"}
+              {"name": "Keywords", "$text": "\n", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
         ]
@@ -89990,6 +90035,154 @@
                 "name": "Mission Tactics",
                 "id": "b376-021c-0bba-6255",
                 "description": "Friendly KILL TEAM units with this ability have the following abilities:\n\n\nFuror Tactics: If the devastator doctrine is active for your unit, your unit’s attacks have [SUSTAINED HITS 1].\n\n\nMalleus Tactics: If the tactical doctrine is active for your unit, your unit’s attacks have [LETHAL HITS].\n\n\nPurgatus Tactics: If the assault doctrine is active for your unit, your unit’s attacks that target an enemy unit within 9\" of this unit have [PRECISION].\n\n\nDEATHWATCH ALLIES\n\n\nYou can include Deathwatch units in your army, even though they do not have the same Chapter faction keyword as other units in your army. The combined points value of such units cannot exceed 500 points.\n\n\nWhen mustering your army, unless otherwise stated, you cannot select a Deathwatch model to be your Warlord. In addition Kill Team units can only contain enhancements taken from this detachment.\n\n",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Firewing Decapitation Force",
+            "id": "1902-6972-a84a-c2dd",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Reconnaissance", "id": "14c4-fc46-65c3-b25d", "primary": false, "targetId": "b4a7-5083-fe94-4d24"}],
+            "constraints": [{"id": "f714-97c1-a97f-9763", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+              {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+              {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "470a-6daa-9014-12df", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Head of the Snake",
+                "id": "9f60-658f-b646-c96e",
+                "description": "Friendly Firewing units' attacks have [ANTI-CHARACTER 5+] when the Assault Doctrine is active.\n\n\nRestrictions: Your army can include Dark Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.\n",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Dreadbringer's Cabal",
+            "id": "ae60-a2fe-74ca-d537",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Priority Assets", "id": "8e37-8741-20ef-3018", "hidden": false, "primary": false, "targetId": "0936-9767-1cc7-52ae"}],
+            "constraints": [{"id": "e3fc-147b-7802-ac8e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+              {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+              {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "470a-6daa-9014-12df", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Indescriminate Wrath",
+                "id": "9c1a-484d-7146-f7f9",
+                "description": "Friendly Dreadwing units' attacks have [ANTI-VEHICLE 4+] when the Devastator Doctrine is active.\n\n\nRestrictions: Your army can include Dark Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.\n",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Ironwing Armoury",
+            "id": "fa52-bc04-7730-b352",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Purge the Foe", "id": "f044-03e0-4ebd-6022", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}],
+            "constraints": [{"id": "20a7-2c31-32a7-8f2d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+              {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+              {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "470a-6daa-9014-12df", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Ablative Armor",
+                "id": "0186-9f17-94c0-890d",
+                "description": "Friendly Ironwing Vehicle units' have [FEEL NO PAIN 6+]\n\nRestrictions: Your army can include Dark Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.\n",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Dark Age Arsenal",
+            "id": "4073-b26c-c783-e8dc",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Priority Assets", "id": "3425-54e4-c2d8-ae08", "hidden": false, "primary": false, "targetId": "0936-9767-1cc7-52ae"}],
+            "constraints": [{"id": "ad55-dc38-7c69-9afd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+              {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+              {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "470a-6daa-9014-12df", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Invocations of Ancient Fury",
+                "id": "93b5-e663-6716-d250",
+                "description": "Friendly ADEPTUS ASTARTES unit's weapon profiles with 'Plasma' in their names are [Plasma] weapon profiles\n\n\n[Plasma] weapons have +1 S\n\nRestrictions: Your army can include Dark Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.\n",
                 "hidden": false
               }
             ]
