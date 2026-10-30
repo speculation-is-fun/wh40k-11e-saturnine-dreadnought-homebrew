@@ -347,7 +347,11 @@
         ]
       },
       {"name": "Praetor", "id": "59d1-48ff-705b-c7cf", "hidden": false},
-      {"name": "Saturnine Terminator Squad", "id": "ffb7-adcc-d237-e6a7", "hidden": false}
+      {"name": "Saturnine Terminator Squad", "id": "ffb7-adcc-d237-e6a7", "hidden": false},
+      {"name": "Forge-Wright", "id": "7b87-faf1-7c1b-1d50", "hidden": false},
+      {"name": "Dreadwing", "id": "40a7-5157-ad85-fb50", "hidden": false},
+      {"name": "Ironwing", "id": "2a0a-f0a4-117b-d728", "hidden": false},
+      {"name": "Firewing", "id": "a225-6bf9-a142-9de6", "hidden": false}
     ],
     "costTypes": [
       {
@@ -88479,10 +88483,7 @@
                     "import": true,
                     "targetId": "3fd3-6ae-e4fe-c09b",
                     "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "fac3-176f-bc19-2b71", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2},
-                      {"id": "a487-0b76-df49-f3f6", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2}
-                    ],
+                    "constraints": [{"id": "fac3-176f-bc19-2b71", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
                     "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
                   },
                   {
@@ -88492,10 +88493,7 @@
                     "import": true,
                     "targetId": "de10-a048-c6fb-b8fb",
                     "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "1af4-5326-6c48-ba87", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2},
-                      {"id": "a9ee-806d-3ebc-abf0", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2}
-                    ],
+                    "constraints": [{"id": "1af4-5326-6c48-ba87", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
                     "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}],
                     "infoLinks": [
                       {"name": "Hazardous", "id": "bf07-fe16-3931-ecbb", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"},
@@ -88511,10 +88509,7 @@
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "constraints": [
-                      {"id": "db1f-cac1-09f3-37a3", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2},
-                      {"id": "be9b-6138-cf62-1248", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}
-                    ],
+                    "constraints": [{"id": "be9b-6138-cf62-1248", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
                     "costs": [
                       {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
                       {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
@@ -88559,10 +88554,7 @@
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "constraints": [
-                      {"id": "0c27-f536-abd2-90de", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2},
-                      {"id": "ca11-d950-f3cc-c09b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}
-                    ],
+                    "constraints": [{"id": "ca11-d950-f3cc-c09b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "d93e-7930-e263-d396", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                     ],
@@ -88595,10 +88587,7 @@
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "constraints": [
-                      {"id": "501a-92a6-883a-694d", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2},
-                      {"id": "a900-9a55-9d21-fab9", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}
-                    ],
+                    "constraints": [{"id": "a900-9a55-9d21-fab9", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
                     "costs": [
                       {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5},
                       {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
@@ -98230,7 +98219,7 @@
                 ]
               },
               {
-                "name": "Nightforged Battery (Upgrade)",
+                "name": "Nightforged Battery",
                 "id": "d395-b051-384b-57d6",
                 "hidden": false,
                 "import": true,
@@ -98633,6 +98622,1015 @@
                       }
                     ],
                     "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dark Age Arsenal",
+            "id": "a66d-be21-bc05-3624",
+            "hidden": false,
+            "constraints": [{"id": "ad62-ef60-cee9-5385", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "cac3-71d1-ea4b-795d", "field": "forces", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "lessThan", "value": 1},
+                      {
+                        "childId": "4073-b26c-c783-e8dc",
+                        "childName": "Dark Age Arsenal",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "comment": "Deathwatch Support",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "d39c-9989-db7f-d815",
+                        "childName": "Faction: Deathwatch",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "5eb6-4ed2-6aca-c7f1",
+                        "childName": "Deathwatch Support",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Petition of Stability (Upgrade)",
+                "id": "eb68-f21c-06de-2fdc",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "13e2-e988-760a-63e4", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 3},
+                  {"id": "6d18-694e-1ec5-99dd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1},
+                  {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+                  {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 2,
+                        "conditions": [
+                          {
+                            "childId": "eb68-f21c-06de-2fdc",
+                            "childName": "Thundercowl Turbines",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 3,
+                        "conditions": [
+                          {
+                            "childId": "eb68-f21c-06de-2fdc",
+                            "childName": "Thundercowl Turbines",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Petition of Stability ",
+                    "id": "dcbc-b81c-e872-82f2",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [{"name": "Description", "$text": "Adeptus Astartes unit only. This unit’s [Plasma] attacks have +6\" R.", "typeId": "9b8f-694b-e5e-b573"}]
+                  }
+                ]
+              },
+              {
+                "name": "Entreaty of Perpetual Ardour (Upgrade)",
+                "id": "0dd0-6ba7-c007-72d2",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "494e-7c96-1136-8a7d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "2944-5f9e-1bec-f784", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 3}
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1},
+                  {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+                  {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 2,
+                        "conditions": [
+                          {
+                            "childId": "0dd0-6ba7-c007-72d2",
+                            "childName": "Nightforged Battery",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 3,
+                        "conditions": [
+                          {
+                            "childId": "0dd0-6ba7-c007-72d2",
+                            "childName": "Nightforged Battery",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "34d3-f5b3-ca63-4597",
+                        "childName": "Hellblaster Squad",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Entreaty of Perpetual Ardour",
+                    "id": "73bd-def6-c487-4714",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {"name": "Description", "$text": "Hellblaster Squad only. This unit’s snap shooting attacks hit on unmodified hit rolls of 5+.", "typeId": "9b8f-694b-e5e-b573"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Ironwing Armoury",
+            "id": "cea9-2f9a-bb8c-4956",
+            "hidden": false,
+            "constraints": [{"id": "3182-2469-c2ca-ae56", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "cac3-71d1-ea4b-795d", "field": "forces", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "lessThan", "value": 1},
+                      {
+                        "childId": "fa52-bc04-7730-b352",
+                        "childName": "Ironwing Armoury",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "comment": "Deathwatch Support",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "d39c-9989-db7f-d815",
+                        "childName": "Faction: Deathwatch",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "5eb6-4ed2-6aca-c7f1",
+                        "childName": "Deathwatch Support",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Master of the Arsenal (Aura)",
+                "id": "4844-cfe7-7741-1dc8",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "9674-b7f7-7910-ca66", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+                  {"id": "1990-3d1d-6aa6-095d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 40},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1},
+                  {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+                  {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 2,
+                        "conditions": [
+                          {
+                            "childId": "4844-cfe7-7741-1dc8",
+                            "childName": "Thundercowl Turbines",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 3,
+                        "conditions": [
+                          {
+                            "childId": "4844-cfe7-7741-1dc8",
+                            "childName": "Thundercowl Turbines",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "5408-66e9-8d1f-a05e",
+                        "childName": "Forge-Wright",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Master of the Arsenal",
+                    "id": "9650-728a-b997-0707",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "Forge-Wright model only. Friendly -wing units within 6\" of this model get +1 to hit rolls, +1 S, and -1 AP",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Archeotech Shielding (Upgrade)",
+                "id": "7075-e98a-b113-dbf4",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "56a1-bc19-c9fe-7caf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "015f-ad8e-b901-0e6b", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 30},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1},
+                  {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+                  {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 2,
+                        "conditions": [
+                          {
+                            "childId": "7075-e98a-b113-dbf4",
+                            "childName": "Nightforged Battery",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 3,
+                        "conditions": [
+                          {
+                            "childId": "7075-e98a-b113-dbf4",
+                            "childName": "Nightforged Battery",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "0a82-2ca2-6290-7d07",
+                        "childName": "Ironwing",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Archeotech Shielding",
+                    "id": "b8c1-6966-470f-50ba",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [{"name": "Description", "$text": "(One per army) [Ironwing] Vehicle units only. This model has a [Feel No Pain 5+]", "typeId": "9b8f-694b-e5e-b573"}]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Firewing Decapitation Force",
+            "id": "0c9c-63aa-442a-513d",
+            "hidden": false,
+            "constraints": [{"id": "5fce-f40d-86f5-5416", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "cac3-71d1-ea4b-795d", "field": "forces", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "lessThan", "value": 1},
+                      {
+                        "childId": "1902-6972-a84a-c2dd",
+                        "childName": "Firewing Decapitation Force",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "comment": "Deathwatch Support",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "d39c-9989-db7f-d815",
+                        "childName": "Faction: Deathwatch",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "5eb6-4ed2-6aca-c7f1",
+                        "childName": "Deathwatch Support",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Auspex Compensators",
+                "id": "377b-909f-d0f2-b7bc",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "b954-b872-6106-524c", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+                  {"id": "dd46-d0b6-0dcc-7a41", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1},
+                  {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+                  {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 2,
+                        "conditions": [
+                          {
+                            "childId": "377b-909f-d0f2-b7bc",
+                            "childName": "Thundercowl Turbines",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 3,
+                        "conditions": [
+                          {
+                            "childId": "377b-909f-d0f2-b7bc",
+                            "childName": "Thundercowl Turbines",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "cf47-a0d7-7207-29dc", "childName": "Infantry", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Auspex Compensators",
+                    "id": "2b30-02c8-fbb3-0a99",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {"name": "Description", "$text": "This unit's ranged attacks gain [Precision] if the Assault Doctrine is active for this unit.", "typeId": "9b8f-694b-e5e-b573"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disengage and Fade Away (Upgrade)",
+                "id": "d0f2-c45d-3dad-1b45",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "ade8-8858-e61b-8c54", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "5f68-c827-1efb-02ef", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 3}
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1},
+                  {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+                  {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 2,
+                        "conditions": [
+                          {
+                            "childId": "d0f2-c45d-3dad-1b45",
+                            "childName": "Nightforged Battery",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 3,
+                        "conditions": [
+                          {
+                            "childId": "d0f2-c45d-3dad-1b45",
+                            "childName": "Nightforged Battery",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "3d58-7b7a-58e0-ded6",
+                        "childName": "Firewing",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Disengage and Fade Away",
+                    "id": "f150-12a4-52e6-1363",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "Firewing units only. This unit can make a fall back move at the end of the fight phase if it killed an enemy character model in that fight phase.\n.\nIf the assault doctrine is active, if this unit is unengaged at the end of your opponents fight phase, you can place this unit in strategic reserves and this unit gains [Deepstrike] until the end of your next movement phase.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dreadbringer's Cabal",
+            "id": "c2a4-069f-4b96-6817",
+            "hidden": false,
+            "constraints": [{"id": "bfd5-79c6-1ceb-ce64", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "cac3-71d1-ea4b-795d", "field": "forces", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "lessThan", "value": 1},
+                      {
+                        "childId": "ae60-a2fe-74ca-d537",
+                        "childName": "Dreadbringer's Cabal",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "comment": "Deathwatch Support",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "d39c-9989-db7f-d815",
+                        "childName": "Faction: Deathwatch",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "5eb6-4ed2-6aca-c7f1",
+                        "childName": "Deathwatch Support",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Fist of Redloss",
+                "id": "12c7-c5b9-830e-f47d",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "ba25-4339-f822-1513", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+                  {"id": "2256-13b1-ef07-de53", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 35},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1},
+                  {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+                  {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 2,
+                        "conditions": [
+                          {
+                            "childId": "12c7-c5b9-830e-f47d",
+                            "childName": "Thundercowl Turbines",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 3,
+                        "conditions": [
+                          {
+                            "childId": "12c7-c5b9-830e-f47d",
+                            "childName": "Thundercowl Turbines",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "4c18-f5ae-8c3a-15b0", "childName": "Eskaton", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Fist of Redloss",
+                    "id": "657f-07b4-3cfa-7d11",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "(Once per Battle) Eskaton model only. In your shooting phase in the 2nd, 3rd, or 4th battle round, you can use this ability.\n\n\nEvery unit within 6\" of the center objective(s) must take a Leadership test at -2. On a success nothing happens. On a failed test, that unit is battle-shocked and takes 4D3 Mortal Wounds.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Up the Ramparts (Upgrade)",
+                "id": "f906-c9bd-bda4-cb22",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "a11a-d060-07a7-d3a6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "3bec-7150-6c3b-8458", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 3}
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1},
+                  {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+                  {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 2,
+                        "conditions": [
+                          {
+                            "childId": "f906-c9bd-bda4-cb22",
+                            "childName": "Nightforged Battery",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "type": "divide",
+                        "value": 3,
+                        "conditions": [
+                          {
+                            "childId": "f906-c9bd-bda4-cb22",
+                            "childName": "Nightforged Battery",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "cf47-a0d7-7207-29dc",
+                        "childName": "Infantry",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Up the Ramparts",
+                    "id": "6ad9-bae2-cb42-6815",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [{"name": "Description", "$text": "Infantry units only. This units ranged attacks have [Assault]", "typeId": "9b8f-694b-e5e-b573"}]
                   }
                 ]
               }
