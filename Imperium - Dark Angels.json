@@ -13780,7 +13780,8 @@
             "sortIndex": 1,
             "targetId": "9a99-f13c-a667-e698",
             "type": "selectionEntryGroup"
-          }
+          },
+          {"name": "Enhancements", "id": "4f51-2fb1-6872-663c", "hidden": false, "import": true, "targetId": "9e5d-de4c-c5d1-1d3e", "type": "selectionEntryGroup"}
         ],
         "infoLinks": [
           {
@@ -13954,6 +13955,12 @@
                 ]
               }
             ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "set",
+            "value": 300,
+            "conditions": [{"childId": "model", "field": "selections", "includeChildSelections": true, "scope": "bf1f-7b13-b1ff-9e5b", "shared": true, "type": "greaterThan", "value": 1}]
           }
         ],
         "profiles": [
@@ -13982,28 +13989,8 @@
             "sortIndex": 2,
             "type": "model",
             "constraints": [
-              {
-                "id": "4209-c82d-3a92-8282",
-                "field": "selections",
-                "includeChildForces": false,
-                "includeChildSelections": true,
-                "percentValue": false,
-                "scope": "parent",
-                "shared": true,
-                "type": "min",
-                "value": 1
-              },
-              {
-                "id": "96a4-bbe0-acad-821c",
-                "field": "selections",
-                "includeChildForces": false,
-                "includeChildSelections": true,
-                "percentValue": false,
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 1
-              }
+              {"id": "b089-8e0a-daa5-a733", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2},
+              {"id": "45ee-eff4-899c-2f88", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
             ],
             "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
             "entryLinks": [
@@ -14093,7 +14080,7 @@
                       {
                         "name": "Two combi-bolters",
                         "id": "7eb6-d250-7fb8-6400",
-                        "collective": false,
+                        "collective": true,
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
@@ -14137,7 +14124,7 @@
                       {
                         "name": "Twin Excindio Claws",
                         "id": "21d2-2c3b-7351-e077",
-                        "collective": false,
+                        "collective": true,
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
@@ -14176,7 +14163,7 @@
                       {
                         "name": "Two graviton guns",
                         "id": "b411-8761-d318-233f",
-                        "collective": false,
+                        "collective": true,
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
@@ -14231,7 +14218,7 @@
                       {
                         "name": "Two plasma guns",
                         "id": "a282-4d96-4e3a-84e2",
-                        "collective": false,
+                        "collective": true,
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
@@ -14306,7 +14293,7 @@
                       {
                         "name": "Two i-rad cleansers",
                         "id": "6156-9dcc-1d94-10df",
-                        "collective": false,
+                        "collective": true,
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
@@ -14354,7 +14341,7 @@
                                   {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
                                   {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                                   {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                                  {"name": "Keywords", "$text": "Anti-Infantry 3+, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+                                  {"name": "Keywords", "$text": "Anti-Infantry 4+, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
                                 ]
                               }
                             ]
@@ -14551,7 +14538,7 @@
                               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
-                              {"name": "D", "$text": "D3+1", "typeId": "a354-c1c8-a745-f9e3"},
+                              {"name": "D", "$text": "D3+2", "typeId": "a354-c1c8-a745-f9e3"},
                               {"name": "Keywords", "$text": "Anti-Vehicle 3+, Blast 2", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           }
