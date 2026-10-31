@@ -6273,7 +6273,7 @@
         "characteristics": [
           {
             "name": "Description",
-            "$text": "(Once per battle round, per unit) When a friendly unit within 24\" is targeted by a stratagem, you can decrease the cost of that use of tha stratagem by 1 command point.",
+            "$text": "(Once per battle, per unit): In the Fight phase, when this unit is selected to fight, you can use this ability. If you do, this model’s melee attacks have:\n+3 A.\n[Devastating Wounds].",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ]
