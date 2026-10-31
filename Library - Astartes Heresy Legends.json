@@ -18344,7 +18344,7 @@
                     "type": "upgrade",
                     "categoryLinks": [{"name": "Damage Dx Weapon", "id": "c39a-0e15-de99-d7da", "hidden": false, "primary": false, "targetId": "4986-bf86-beb4-13ac"}],
                     "costs": [
-                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
+                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
                       {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                       {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                       {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -18367,9 +18367,10 @@
                     "infoLinks": [
                       {"name": "Blast", "id": "2dd4-ae43-3144-9794", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
                       {"name": "Devastating Wounds", "id": "6426-507c-bf4c-22ac", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
-                      {"name": "Ignores Cover", "id": "fcdb-c9ff-bf5e-004a", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
+                      {"name": "Sustained Hits", "id": "fcdb-c9ff-bf5e-004a", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"},
                       {"name": "Indirect Fire", "id": "f231-031f-d0a4-ed87", "hidden": false, "targetId": "4ddd-4e29-acdd-5e6d", "type": "rule"},
-                      {"name": "Heavy", "id": "364c-1dbe-5601-0933", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}
+                      {"name": "Heavy", "id": "364c-1dbe-5601-0933", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"},
+                      {"name": "Ignores Cover", "id": "a38d-f4c1-c62e-da63", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"}
                     ],
                     "profiles": [
                       {
@@ -18379,13 +18380,13 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "Range", "$text": "60\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "A", "$text": "5", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                           {"name": "S", "$text": "14", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "2D3+4", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Blast 2, Devastating Wounds, Heavy, Ignores Cover, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {"name": "Keywords", "$text": "Blast 2, Devastating Wounds, Heavy, Ignores Cover, Indirect Fire, Sustained Hits 1", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]
